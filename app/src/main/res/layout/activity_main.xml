@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainpage_background">
+
+    <game.offline.ponggame.GameView
+        android:id="@+id/gameView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/animatedGifView"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:visibility="gone"
+    android:scaleType="fitXY"/>
+
+</RelativeLayout>
+<!--android:background="@drawable/light_grey_gradient"-->
+<!--    <ImageView
+        android:id="@+id/animatedGifView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+    android:scaleType="fitXY"/>-->
